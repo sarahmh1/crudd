@@ -1,0 +1,61 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-secale=1.0">
+        
+        <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+       
+    </head>
+<body>
+
+
+<div class="card" >
+    <div class="card-header">
+        <h4 class="font-weight-bold">Add New CUstomer</h4>
+    </div>
+    <div class="card-body">
+        <form action ="/addCustomerAction" id="add_customer_form" method="post">
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group">
+                        <label class="col-form-label" for="firstname">First Name</label>
+                        <input type="text" class="form-control" name="firstname" placeholder="enter first name" id="firstname">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-group">
+                        <label class="col-form-label" for="lastname">Last Name</label>
+                        <input type="text" class="form-control" name="lastname" placeholder="enter last name" id="lastname">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-group">
+                        <label class="col-form-label" for="phonenumber">Phone Number</label>
+                        <input type="number" class="form-control" name="phonenumber" placeholder="enter your phone number" id="phonenumber">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-group">
+                        <label class="col-form-label" for="cnic">Cnic</label>
+                        <input type="text" class="form-control" name="cnic" placeholder="2222-2222222-2" id="cnic">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-group">
+                        <label for="adresse">Adresse</label>
+                        <textarea class="form-control" name="address" id="address" rows="3"></textarea>
+                    </div>
+                </div>
+            </div>  
+            <div class="">
+                <button type="submit"  class="btn btn-success"> Submit</button>
+                <a href="/" class="btn btn-light">Cancel</a>        
+            </div>     
+        </form>
+    </div>
+</div>
+
+</body></html>
+
+
